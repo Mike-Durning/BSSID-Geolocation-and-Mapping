@@ -2,7 +2,8 @@
 ---
 
 ## Navigation
-
+---
+**Please Note: For the live map, they are slightly stretched due to the zoom resolution**
 | **Images**            | **BSSID Images**                                                  |
 |------------------------|------------------------------------------------------------------|
 | 200 BSSID Image      | [#200-bssid-visual](#200-bssid-visual)                             |
