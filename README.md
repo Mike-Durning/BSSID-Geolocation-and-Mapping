@@ -12,7 +12,7 @@
 | 3850 BSSID Image     | [#3850-bssid-visual](#3850-bssid-visual)                           |
 | 4000 BSSID Image     | [#4000-bssid-visual](#4000-bssid-visual)                           |
 | 4000 BSSID Live Map  | [#4000-bssid-live-map](#4000-bssid-live-map)                       |
-| 4000 BSSID Map Outline | [#4000-bssid-map-outline](#4000-bssid-map-outline)               |
+| 4000 BSSID Live Map Outline | [#4000-bssid-map-outline](#4000-bssid-map-outline)          |
 
 ---
 
