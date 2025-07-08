@@ -9,6 +9,9 @@
 | 2000 BSSID Image     | [#2000-bssid-visual](#2000-bssid-visual)                           |
 | 3000 BSSID Image     | [#3000-bssid-visual](#3000-bssid-visual)                           |
 | 3850 BSSID Image     | [#3850-bssid-visual](#3850-bssid-visual)                           |
+| 4000 BSSID Image     | [#4000-bssid-visual](#4000-bssid-visual)                           |
+| 4000 BSSID Live Map  | [#4000-bssid-live-map](#4000-bssid-live-map)                       |
+| 4000 BSSID Map Outline | [#4000-bssid-map-outline](#4000-bssid-map-outline)               |
 
 ---
 
@@ -55,23 +58,34 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 
 ## Ongoing 07/08/2025
 ---
+
 ## Media Progress
 ---
+
 ### 200 BSSID Visual
 ![200 BSSIDs](images/200_BSSIDs.png)
-
 ---
 
 ### 2000 BSSID Visual
 ![2000 BSSIDs](images/2000_BSSIDs.png)
-
 ---
 
 ### 3000 BSSID Visual
 ![3000 BSSIDs](images/3000_BSSIDs.png)
-
 ---
 
 ### 3850 BSSID Visual
 ![3850 BSSIDs](images/3850_BSSIDs.png)
+---
 
+### 4000 BSSID Visual
+![4000 BSSIDs](images/4000_BSSIDs.png)
+---
+
+### 4000 BSSID Live Map
+![4000 BSSIDs Live Map](images/4000_BSSIDs_live_map.png)
+---
+
+### 4000 BSSID Map Outline
+![4000 BSSIDs Map Outline](images/4000_BSSIDs_live_map_outline.png)
+---
