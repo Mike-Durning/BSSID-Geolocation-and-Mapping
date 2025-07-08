@@ -21,3 +21,24 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 
 
 ## Still in progress 07/08/2025
+---
+## Image Progress
+---
+### 📍 200 BSSID Visual
+![200 BSSIDs](images/200_BSSIDs.png)
+
+---
+
+### 📍 2000 BSSID Visual
+![2000 BSSIDs](images/2000_BSSIDs.png)
+
+---
+
+### 📍 3000 BSSID Visual
+![3000 BSSIDs](images/3000_BSSIDs.png)
+
+---
+
+### 📍 3850 BSSID Visual
+![3850 BSSIDs](images/3850_BSSIDs.png)
+
