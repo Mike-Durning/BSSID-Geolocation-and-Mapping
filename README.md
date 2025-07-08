@@ -29,12 +29,12 @@
 |  **Delta Analysis**       | Calculate Min/Max Lat/Lon delta to find perimeter/edge BSSIDs          | ✅  |
 |  **Rotating Strategy**    | Rotate min/max BSSIDs to reduce duplicate calls & optimize coverage    | ✅  |
 |  **Perimeter Walking**    | Edge traversal based on spatial deltas based on convex hull strategy   | ✅  |
+| **Realtime Map**     | Show realtime process of new datapoints, growing perimeter/density     | ⏳ - Finished pending documentation |
 |  **Convex Hull + Delta strategy** | Combining two strategies in order to see if any additional benefit | ❌  |
 |  **Radial Expansion**     | Expand radially from hull center to fill interior density gaps         | ❌  |
 |  **BSSID Clustering**     | Cluster BSSIDs to identify similar hardware/location profiles          | ❌  |
 |  **Predictive Modeling**  | Predict missing/unseen BSSIDs using collected patterns                 | ❌  |
 | **Kepler.gl Export**     | Export visual snapshots or interactive sessions from collected data    | ✅  |
-| **Realtime Map**     | Show realtime process of new datapoints, growing perimeter/density     | ❌  |
 
 
 
