@@ -4,7 +4,7 @@ Collecting BSSID's via API - Then mapping long/lat
 
 # Process
 ---
-## Using my own BSSID I am able to return 0-80 BSSID's on average.
+## Using my own BSSID I am able to return 0-80 BSSID's on average. Using others BSSID... I am able to return a couple million?
 ---
 Throughout this I learned pretty quickly that I could only get a couple 100 BSSID's before I realized I was building up quite the stockpile and I would almost consistently return the same exact BSSID's. Doing my best to get new ones, I got my first 200 to 400 by simply scanning through a list and trying at random. This was becoming tedious, almost no return per query, and feeling pointless. I automated the API calls and the cleaning the extracted data. I would constantly query the same data so I was constantly removing duplicates so I automated the entire process.
 
