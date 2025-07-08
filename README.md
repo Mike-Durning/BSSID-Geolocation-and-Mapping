@@ -1,5 +1,22 @@
 # bssid_mapping
 ---
+
+## 📘 Navigation
+
+| **Section**            | **Anchor Link**                                                                                                                                      |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| BSSID Mapping        | [#bssid_mapping](#bssid_mapping)                                                                                                                    |
+| Process Overview     | [#process](#process)                                                                                                                                |
+| Own vs Other BSSID   | [#using-my-own-bssid-i-am-able-to-return-0-80-bssids-on-average-using-others-bssid-i-am-able-to-return-a-couple-million](#using-my-own-bssid-i-am-able-to-return-0-80-bssids-on-average-using-others-bssid-i-am-able-to-return-a-couple-million) |
+| Ongoing Work         | [#still-in-progress-07082025](#still-in-progress-07082025)                                                                                          |
+| Image Progress       | [#image-progress](#image-progress)                                                                                                                  |
+| 200 BSSID Image      | [#200-bssid-visual](#200-bssid-visual)                                                                                                           |
+| 2000 BSSID Image     | [#2000-bssid-visual](#2000-bssid-visual)                                                                                                         |
+| 3000 BSSID Image     | [#3000-bssid-visual](#3000-bssid-visual)                                                                                                         |
+| 3850 BSSID Image     | [#3850-bssid-visual](#3850-bssid-visual)                                                                                                         |
+
+---
+
 1. Current Step: Collecting BSSID's, Latitude, Longitude via API - Then mapping long/lat with BSSID.
 2. Next Step: Reverse engineer the types of BSSID's - ##:##:##:##:##:## - How does each # and or char relate or what does it relate to? 
 3. Future Step: Can I accurately estimate/guess others BSSID's based on latitude/longitude & Discovered charactistics.
@@ -24,21 +41,21 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 ---
 ## Image Progress
 ---
-### 📍 200 BSSID Visual
+### 200 BSSID Visual
 ![200 BSSIDs](images/200_BSSIDs.png)
 
 ---
 
-### 📍 2000 BSSID Visual
+### 2000 BSSID Visual
 ![2000 BSSIDs](images/2000_BSSIDs.png)
 
 ---
 
-### 📍 3000 BSSID Visual
+### 3000 BSSID Visual
 ![3000 BSSIDs](images/3000_BSSIDs.png)
 
 ---
 
-### 📍 3850 BSSID Visual
+### 3850 BSSID Visual
 ![3850 BSSIDs](images/3850_BSSIDs.png)
 
