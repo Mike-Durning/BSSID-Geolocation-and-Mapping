@@ -94,6 +94,6 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 ![4000 BSSIDs Live Map](images/4000_BSSIDs_live_map.png)
 ---
 
-### 4000 BSSID Map Outline
+### 4000 BSSID Map Hull Shaped Outline
 ![4000 BSSIDs Map Hull Shaped Outline](images/4000_BSSIDs_live_map_outline.png)
 ---
