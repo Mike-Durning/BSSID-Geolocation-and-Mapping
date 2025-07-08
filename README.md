@@ -37,8 +37,8 @@
 |  **Perimeter Walking**    | Edge traversal based on spatial deltas based on convex hull strategy   | ✅  |
 | **Realtime Map**     | Show realtime process of new datapoints, growing perimeter/density     | ✅ |
 | **Realtime Map + Convex Hull Outline**     | Convex hull outline allows for visiblity and ensuring correctly walking perimeter     | ✅ |
-| **Change Convex Hull Shape**     | Need to increase amount of sides & Create limit to how large one side can be  | ✅ |
-|  **Convex Hull + Delta strategy** | Combining two strategies in order to see if any additional benefit | ❌  |
+| **Convex Hull -> Concave Hull**     | Need to increase amount of sides & Create limit to how large one side can be. Convex focuses on as few sides as possible, meaning it only gives a rough shape, using a concave hull does the opposite allowing for it to fit more closely to the outer datapoints  | ✅ |
+|  **Hull Shape + Delta strategy** | Combining two strategies in order to see if any additional benefit, is this worth doing? | ❌  |
 |  **Radial Expansion**     | Expand radially from hull center to fill interior density gaps         | ❌  |
 |  **BSSID Clustering**     | Cluster BSSIDs to identify similar hardware/location profiles          | ❌  |
 |  **Predictive Modeling**  | Predict missing/unseen BSSIDs using collected patterns                 | ❌  |
