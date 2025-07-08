@@ -1,6 +1,8 @@
 # bssid_mapping
 ---
-Collecting BSSID's via API - Then mapping long/lat
+Current -> Collecting BSSID's, Latitude, Longitude via API - Then mapping long/lat with BSSID.
+Plan -> Reverse engineer the types of BSSID's ##:##:##:##:##:## - How does each double digit relate? 
+Future -> Can I accurate estimate others BSSID's based on latitude/longitude & Discovered charactistics
 
 # Process
 ---
