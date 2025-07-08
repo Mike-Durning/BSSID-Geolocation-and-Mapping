@@ -38,7 +38,6 @@
 | **Realtime Map**     | Show realtime process of new datapoints, growing perimeter/density     | ✅ |
 | **Realtime Map + Convex Hull Outline**     | Convex hull outline allows for visiblity and ensuring correctly walking perimeter     | ✅ |
 | **Convex Hull -> Concave Hull**     | Need to increase amount of sides & Create limit to how large one side can be. Convex focuses on as few sides as possible, meaning it only gives a rough shape, using a concave hull does the opposite allowing for it to fit more closely to the outer datapoints  | ✅ |
-|  **Hull Shape + Delta strategy** | Combining two strategies in order to see if any additional benefit, is this worth doing? | ❌  |
 |  **Radial Expansion**     | Expand radially from hull center to fill interior density gaps         | ❌  |
 |  **BSSID Clustering**     | Cluster BSSIDs to identify similar hardware/location profiles          | ❌  |
 |  **Predictive Modeling**  | Predict missing/unseen BSSIDs using collected patterns                 | ❌  |
@@ -59,9 +58,11 @@ Once I got to about 2000 I was realizing that simply using the deltas and rotati
 
 
 Lots of updates 7/8/2025 
+Convex Hull -> Concave Hull was success, although the strategy provided the same result. Moving on.
 
+focus is shifting to less dense clusters
 
-potential issue I am thinking of is that I doubt it would be a true outward spiral of api calls. I think it would be randomized clusters with a outward spiral.
+potential issue I am thinking of is that I doubt it would be a true outward spiral of api calls. I think it would be randomized clusters with a outward spiral. I need to focus on density, mainly low density areas
 
 
 
