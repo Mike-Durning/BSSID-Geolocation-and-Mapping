@@ -21,7 +21,7 @@
 | 3850 BSSID Image     | [#3850-bssid-visual](#3850-bssid-visual)                           |
 | 4000 BSSID Image     | [#4000-bssid-visual](#4000-bssid-visual)                           |
 | 4000 BSSID Live Map  | [#4000-bssid-live-map](#4000-bssid-live-map)                       |
-| 4000 BSSID Live Map Outline | [#4000-bssid-map-outline](#4000-bssid-map-outline)          |
+| 4000 BSSID Live Map (Hull shaped outline) | [#4000-bssid-map-hull-shaped-outline](#4000-bssid-map-outline)          |
 ---
 
 
@@ -95,5 +95,5 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 ---
 
 ### 4000 BSSID Map Outline
-![4000 BSSIDs Map Outline](images/4000_BSSIDs_live_map_outline.png)
+![4000 BSSIDs Map Hull Shaped Outline](images/4000_BSSIDs_live_map_outline.png)
 ---
