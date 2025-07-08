@@ -58,11 +58,11 @@ Once I got to about 2000 I was realizing that simply using the deltas and rotati
 
 
 Lots of updates 7/8/2025 
-Convex Hull -> Concave Hull was success, although the strategy provided the same result. Moving on.
+Convex Hull -> Concave Hull was success, although the strategy provided the same result. look at 4000 BSSID Map Outline, convex and concave were extremely similar leaving me unable to target portions I was attempting to access.
 
-focus is shifting to less dense clusters
+focus is shifting to less dense clusters then radially expanding from there
 
-potential issue I am thinking of is that I doubt it would be a true outward spiral of api calls. I think it would be randomized clusters with a outward spiral. I need to focus on density, mainly low density areas
+potential issue I am thinking of is that I doubt it would be a true outward spiral. I think it would be randomized clusters with a outward spiral. I need to focus on density, mainly low density areas
 
 
 
