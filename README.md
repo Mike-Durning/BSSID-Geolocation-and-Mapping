@@ -58,11 +58,13 @@ Once I got to about 2000 I was realizing that simply using the deltas and rotati
 
 
 
+Lots of updates 7/8/2025 
+
+
 potential issue I am thinking of is that I doubt it would be a true outward spiral of api calls. I think it would be randomized clusters with a outward spiral.
 
 
-## Ongoing 07/08/2025
----
+
 
 ## Media Progress
 ---
