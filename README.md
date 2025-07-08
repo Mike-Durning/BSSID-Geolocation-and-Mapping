@@ -1,6 +1,15 @@
 # bssid_mapping
 ---
 
+## Goals
+---
+1. **Collect & Map the physical locations** of Wi-Fi BSSIDs based on publicly available query APIs.
+2. **Reverse-engineer BSSID structure** to infer manufacturer, region (Longitude/Latitude), and possible hardware type -> How does each # and or char relate or what does it relate to? 
+3. **Optimize geospatial coverage** using adaptive strategies like perimeter walking and directional expansion.
+4. **Predict unseen BSSIDs** based on clustering and Information gather from `2.` can I accurately estimate/guess others BSSID's.
+5. Keep this updated as possible, including images included in `images` folder to help show with visuals.
+---
+
 ## Navigation
 ---
 **Please Note: For the live map, they are slightly stretched due to the zoom resolution**
@@ -13,16 +22,9 @@
 | 4000 BSSID Image     | [#4000-bssid-visual](#4000-bssid-visual)                           |
 | 4000 BSSID Live Map  | [#4000-bssid-live-map](#4000-bssid-live-map)                       |
 | 4000 BSSID Live Map Outline | [#4000-bssid-map-outline](#4000-bssid-map-outline)          |
-
 ---
 
-## Goals
----
-1. **Collect & Map the physical locations** of Wi-Fi BSSIDs based on publicly available query APIs.
-2. **Reverse-engineer BSSID structure** to infer manufacturer, region (Longitude/Latitude), and possible hardware type -> How does each # and or char relate or what does it relate to? 
-3. **Optimize geospatial coverage** using adaptive strategies like perimeter walking and directional expansion.
-4. **Predict unseen BSSIDs** based on clustering and Information gather from `2.` can I accurately estimate/guess others BSSID's.
-5. Keep this updated as possible, including images included in `images` folder to help show with visuals.
+
 
 ## Overview
 ---
