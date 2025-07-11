@@ -23,19 +23,20 @@
 ## Navigation
 ---
 **Please Note: For the live map, they are slightly stretched due to the zoom resolution**
-| **Images**                                 | **BSSID Images**                                                  |
+| **Media**                                 | **BSSID Images**                                                  |
 |--------------------------------------------|------------------------------------------------------------------|
-| 200 BSSID Image                            | [#200-bssid-visual](#200-bssid-visual)                           |
-| 2000 BSSID Image                           | [#2000-bssid-visual](#2000-bssid-visual)                         |
-| 3000 BSSID Image                           | [#3000-bssid-visual](#3000-bssid-visual)                         |
-| 3850 BSSID Image                           | [#3850-bssid-visual](#3850-bssid-visual)                         |
-| 4000 BSSID Image                           | [#4000-bssid-visual](#4000-bssid-visual)                         |
-| 4000 BSSID Live Map                        | [#4000-bssid-live-map](#4000-bssid-live-map)                     |
-| 4000 BSSID Live Map (Hull shaped outline)  | [#4000-bssid-map-hull-shaped-outline](#4000-bssid-map-hull-shaped-outline) |
-| 5000 BSSID Image                           | [#5000-bssid-visual](#5000-bssid-visual)                         |
-| 6500 BSSID Image                           | [#6500-bssid-visual](#6500-bssid-visual)                         |
-| 8750 BSSID Image                           | [#8750-bssid-visual](#8750-bssid-visual)                         |
-| Timeline Map Progress Video (8750)         | [#timeline-map-progress-video](#timeline-map-progress-video)     |
+| 200 BSSID Image                            | [200-bssid-visual](#200-bssid-visual)                           |
+| 2000 BSSID Image                           | [2000-bssid-visual](#2000-bssid-visual)                         |
+| 3000 BSSID Image                           | [3000-bssid-visual](#3000-bssid-visual)                         |
+| 3850 BSSID Image                           | [3850-bssid-visual](#3850-bssid-visual)                         |
+| 4000 BSSID Image                           | [4000-bssid-visual](#4000-bssid-visual)                         |
+| 4000 BSSID Live Map                        | [4000-bssid-live-map](#4000-bssid-live-map)                     |
+| 4000 BSSID Live Map (Hull shaped outline)  | [4000-bssid-map-hull-shaped-outline](#4000-bssid-map-hull-shaped-outline) |
+| 5000 BSSID Image                           | [5000-bssid-visual](#5000-bssid-visual)                         |
+| 6500 BSSID Image                           | [6500-bssid-visual](#6500-bssid-visual)                         |
+| 8750 BSSID Image                           | [8750-bssid-visual](#8750-bssid-visual)                         |
+| **Youtube - Timeline Map Progress Video (8750)**     | [timeline-map-progress-video](#timeline-map-progress-video-8750) |
+
 
 ---
 
@@ -126,9 +127,8 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 ---
 
 ### Timeline Map Progress Video (8750)
+<a name="timeline-map-progress-video-8750"></a>
 
-<video controls width="100%">
-  <source src="images/Timeline 1.mp4" type="video/mp4">
-  [View video directly](images/Timeline%201.mp4)
-</video>
+[![Watch on YouTube](https://img.youtube.com/vi/GWkomcH9h6g/0.jpg)](https://youtu.be/GWkomcH9h6g)
+
 ---
