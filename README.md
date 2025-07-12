@@ -134,6 +134,6 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 
 ---
 
-### 8750 BSSID Visual
+### 3600 BSSID Visual
 ![3600 BSSID](images/36000_BSSID.png)
 ---
