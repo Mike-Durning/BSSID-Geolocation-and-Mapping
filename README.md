@@ -38,6 +38,8 @@
 | **Youtube - Timeline Map Progress Video (8750)**     | [timeline-map-progress-video](#timeline-map-progress-video-8750) |
 | 36,000 BSSID Image                           | [36000-bssid-visual](#36000-bssid-visual)                         |
 | 66,000 BSSID Image                           | [66000-bssid-visual](#66000-bssid-visual)                         |
+| 90,000 BSSID Image                           | [90000-bssid-visual](#90000-bssid-visual)                         |
+| 90,000 Live BSSID Image                           | [90000-live-bssid-visual](#90000-live-bssid-visual)                         |
 
 
 ---
@@ -67,22 +69,19 @@
 ---
 ## Using my own BSSID I am able to return 0-80 BSSID's on average. Using others BSSID... I am able to return a couple million?
 ---
-Throughout this I learned pretty quickly that I could only get a couple 100 BSSID's before I realized I was building up quite the stockpile and I would almost consistently return the same exact BSSIDs. Doing my best to get new ones, I got my first 200 to 400 by simply scanning through a list and trying at random. This was becoming tedious, almost all duplicates per query, and feeling like little progress is happening. I automated the API calls and the cleaning the extracted data.
+Throughout this I learned pretty quickly that I could only get a couple 100 BSSID's before I realized I was building up quite the stockpile and I would almost consistently return the same exact BSSIDs. Doing my best to get new ones, I got my first 200 to 400 by simply scanning through a list and trying at random. This was becoming tedious, almost all duplicates per query, and feeling like little progress is happening. I automated the API calls and making it recursively call the newly found BSSIDs then cleaning the extracted data and repeating.
 
 I then started calculating the delta between the largest and the smallest longitudes and latitudes and reusing the BSSID's with the greatest deltas as they would most likely be on the edge of where I had already scanned/mapped out as they were basically broken up into a coordinate grid (longitude and latitude) this would essentially allow me to understand if I'm going left right up or down. I quickly realized that I needed to rotate the Min/max long/lat in order to not query the same call over and over and over again. After implementing the rotating deltas, I was still running into limitations.
 
-Once I got to about 2000 I was realizing that simply using the deltas and rotating still limited me as there was no further direction outside of just oh this is the farthest point from this point and as I'm using a coordinate grid I'm essentially only going in 90° angles all four ways. I then decided on 
+Once I got to about 2000 I was realizing that simply using the deltas and rotating still limited me as there was no further direction outside of just oh this is the farthest point from this point and as I'm using a coordinate grid I'm essentially only going in 90° angles all four ways. I then decided on the approach of using perimeter walking using a concave shape to move beyond just brute forcing in cardinal directions.
 
+The next question was how do I actually get a usable perimeter? The answer came through something called an alpha shape. It’s similar to a convex hull—which just wraps around the outermost points like a rubber band, but the alpha shape lets you dial in how tight or loose the wrapping is. The smaller the alpha, the tighter it grips around the curves and indentations of the point cloud. Too tight and it fragments, too loose and it behaves like a convex hull again. For my case, I needed just enough curvature to catch the shape of drive paths and intersections without creating gaps.
 
+This outline, once formed, is just a series of latitude and longitude pairs forming a closed loop. But those are just geometric coordinates, not real access points. So to make this perimeter actionable, I walk through each of those polygon edge points and match them to the closest actual signal measurement from the original dataset. This closest point lookup isn’t based on raw coordinate distance though it uses the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula), which calculates the great circle distance between two points on the Earth’s surface, factoring in curvature. That way, I’m working in meters, not abstract degrees, which matters when trying to limit overlap or redundancy in dense areas.
 
-Lots of updates 7/8/2025 
-Convex Hull -> Concave Hull was success, although the strategy provided the same result. look at 4000 BSSID Map Outline, convex and concave were extremely similar leaving me unable to target portions I was attempting to access.
+Another detail here is spacing since the polygon edge can be made of dozens of points tightly packed together, I apply a minimum spacing threshold. If the next perimeter point is less than a few meters from the last one I already accepted, I skip it. This keeps the perimeter efficient without sacrificing coverage, and avoids sending the system into loops of nearly identical BSSIDs.
 
-focus is shifting to less dense clusters then radially expanding from there
-
-potential issue I am thinking of is that I doubt it would be a true outward spiral. I think it would be randomized clusters with a outward spiral. I need to focus on density, mainly low density areas
-
-
+Once the perimeter is finalized and matched to known access points, I store it in memory as a list. The system can then step through it in order this gives a natural progression along the edge instead of bouncing randomly or just maxing out distances in four directions.
 
 
 ## Media Progress
@@ -141,4 +140,12 @@ potential issue I am thinking of is that I doubt it would be a true outward spir
 
 ### 66000 BSSID Visual
 ![66000 BSSID](images/66000.png)
+---
+
+### 90000 BSSID Visual
+![90000 BSSID](images/90000.png)
+---
+
+### 90000 Live BSSID Visual
+![90000 live BSSID](images/90000live.png)
 ---
