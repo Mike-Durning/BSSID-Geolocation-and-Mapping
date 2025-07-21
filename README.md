@@ -143,7 +143,7 @@ Once the perimeter is finalized and matched to known access points, I store it i
 ---
 
 ### 90000 BSSID Visual
-- **Had to reduce size of each point due to the inability to discern the different points as they would make it hard to see**
+- **A bit more zoomed out - Had to reduce size of each point due to the inability to discern the different points as they would make it hard to see**
 ![90000 BSSID](images/90000.png)
 ---
 
